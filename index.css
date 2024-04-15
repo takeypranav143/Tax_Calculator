@@ -1,0 +1,88 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
+
+.input-container {
+  font-size: large;
+  font-weight: bold;
+  width: auto;
+  text-align: center;
+}
+
+label {
+  color: #bdc3c7;
+}
+
+#input {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid whitesmoke;
+}
+
+input {
+  width: 80%;
+  margin-top: 2px;
+  border: 1px solid;
+  border-radius: 10px;
+  background: rgb(196, 213, 213);
+  background: linear-gradient(
+    0deg,
+    rgba(196, 213, 213, 1) 0%,
+    rgba(242, 242, 242, 1) 100%
+  );
+}
+
+.bi-question-circle {
+  color: aliceblue;
+}
+
+select {
+  width: 80%;
+  background: rgb(196, 213, 213);
+  background: linear-gradient(
+    0deg,
+    rgba(196, 213, 213, 1) 0%,
+    rgba(242, 242, 242, 1) 100%
+  );
+  border: 1px;
+  border-radius: 10px;
+}
+
+.bi-exclamation-circle {
+  color: aliceblue;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.btn-secondary {
+  display: block;
+  margin: auto;
+}
+
+.error-icon {
+  display: none;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.error-icon:hover + .error-tooltip {
+  display: block;
+}
+
+.btn {
+  background: rgb(221, 232, 232);
+  background: linear-gradient(
+    0deg,
+    rgba(221, 232, 232, 0.7707457983193278) 0%,
+    rgba(242, 242, 242, 1) 100%
+  );
+}
