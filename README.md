@@ -7,3 +7,6 @@ Frontend Technologies
 HTML , CSS , BOOTSTRAP , JAVASCRIPT.
 
 Screenshot
+
+![Screenshot ](https://github.com/takeypranav143/Tax_Calculator/assets/88662901/785696b0-699b-4a64-8ad2-d61134d5a4ed)
+
